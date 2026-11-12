@@ -1,0 +1,15 @@
+# VisionDigits — dependencias
+# Python recomendado: 3.11 o 3.12 (TensorFlow aún no publica ruedas para todas las versiones nuevas)
+
+# --- Machine Learning ---
+tensorflow>=2.16          # incluye Keras 3 (formato .keras). En servidores sin GPU puedes usar tensorflow-cpu
+numpy>=1.26
+scikit-learn>=1.4         # métricas: accuracy, precision, recall, F1, matriz de confusión
+matplotlib>=3.8           # gráficas del cuaderno de Colab
+
+# --- Aplicación web ---
+streamlit>=1.53
+streamlit-drawable-canvas>=0.13   # lienzo de dibujo (v0.13+ requiere Streamlit >= 1.53)
+plotly>=5.20              # gráficas interactivas (barras, matriz de confusión)
+pandas>=2.0
+pillow>=10.1
